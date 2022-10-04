@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark navbar-expand-xl bg-dark">
+    <div class="container-fluid barra-nav">
+      <a class="navbar-brand" href="../index.html">
+        <img src="../img/logo-untanuts-crema_palabra.webp" alt="Logo" width="100px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pages/packs.html">Packs</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Opciones
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./preguntasfrecuentes.html">Preguntas Frecuentes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./recetas.html">Recetas</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./contacto.html">Contacto</a></li>
+            </ul>
+          </li>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search"><!--Buscar-->
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+      <div class="main">
+        <div class="container-fluid">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../img/Banner_1.jpg" class="d-flex w-100" alt="Banner_Home">
+                </div>
+                <div class="carousel-item">
+                  <img src="../img/Banner_2.jpg" class="d-block w-100" alt="armatupack">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+        </div>
+  
+      <!-- class recetas -->
+      <div class="container">
+        <legend class="text-lg-start header">Recetas</legend>
+        <div class="row">
+          <div class="col-md">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/Receta_Salmon.webp" class="card-img-top" alt="Receta_Salmon">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Salmon en salsa Ciboulette</strong></h5>
+                <p class="card-text">La versatilidad de Untanuts hace que su textura pueda ser diluida para crear
+                  cremas y salsas deliciosas. Ciboulette E es una fantástica manera de aportar vitamina E.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Ir a Receta</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/panqueque-relleno.webp" class="card-img-top" alt="Receta_Salmon">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Panqueque Rellenos</strong></h5>
+                <p class="card-text">Los panqueques de avena son una opción saludable, llena de fibra para nuestra microbiota. ¡Junto con la dulzura natural de nuestra Moustella, hará de tus desayunos tu comida favorita!</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop_2">Ir a Receta</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div class="card" style="width: 18rem;">
+              <img src="../img/lasana-keto.webp" class="card-img-top" alt="Lasaña de Zapallo Italiano Keto">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Lasaña de Zapallo Italiano</strong></h5>
+                <p class="card-text">Estás buscando una receta 100% Keto, sabrosa y llena de sabores que te evoquen los viajes y la exploración, esto es para disfrutar en Familia y junto a tus mejores amigos!</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop_3">Ir a Receta</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+     
+      <!-- class footer -->
+
+      <div class="container-fluid bg-black mt-5 p-5 text-center">
+        <div class="row">
+          <div class="col-md">
+            <h2 class="text-white">UNTANUTS</h2>
+            <p class="text-white-50 text-lg-start">
+              UNTANUTS se ha comprometido desde el comienzo a donar el 10% de sus utilidades a proyectos que generen una contribución al medio ambiente, la sociedad, educación y nutrición.
+            </p>
+          </div>
+          <div class="col-md">
+            <h2 class="text-white">INFORMACIÓN</h2>
+            <P class="text-white-50 text-lg-start">
+              Estamos muy preocupados en como distribuimos nuestros productos y el impacto que generan desde que salen de nuestra fábrica, llegan a sus hogares, hasta que los terminan de disfrutar y desechar. 
+            </P>
+          </div>
+          <div class="col-md">
+            <h2 class="text-white">BLOG</h2>
+            <p class="text-white-50 text-lg-start">
+              Somos viajeros, curiosos y aventureros, creemos que la cocina no es un lugar de restricciones, es para explorar y para atreverse.
+              Destapa UNTANUTS y destapa infinitas posibilidades para tu cocina. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" 
+      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Salmon en salsa Ciboulette</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <strong>Ingredientes:</strong>
+              <ul>1 salmón de fuentes ecológicas y sustentables.</ul>
+              <ul>1 cda de aceite de oliva.</ul>
+              <ul>1 frasco de Untanuts Ciboulette E.</ul>
+              <ul>1 paquete de fideo de porotos negros.</ul>
+              <ul>1 puñado de tomates cherry.</ul>
+
+              <strong>Preparación:</strong>
+              <ul>Dorar el salmón en un sartén con aceite de oliva, puedes agregar hojas de salvia y una pisca de sal.</ul>
+              <ul>Cocinar los fideos de porotos negros según las instrucciones del paquete y reservar.</ul>
+              <ul>Emplatar, colocando los fideos de porotos, los tomates cherry y el salmón.</ul>
+              <ul>Diluir con un poco de agua, agregando poco a poco hasta formar la textura de salsa deseada y terminar bañando el salmón con nuestra salsa.</ul>
+              <ul>Disfrutar!</ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="staticBackdrop_2" data-bs-backdrop="static" data-bs-keyboard="false" 
+      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Panqueque Rellenos</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <strong>Ingredientes:</strong>
+              <ul>250 gramos de copos de avena (sin gluten).</ul>
+              <ul>200 mililitros de agua o leche de tu preferencia.</ul>
+              <ul>1 huevo, puedes remplazarlo por un plátano molido o una cda de linaza en polvo.</ul>
+              <ul>1 cdita de polvos de hornear.</ul>
+              <ul>2 cdas de aceite.</ul>
+              <ul>1 pizca de canela en polvo.</ul>
+              <ul>1 cucharada postre de esencia de vainilla.</ul>
+              <ul>1 frasco de Untanuts Moustella.</ul>
+              <ul>Berries y coco para decorar.</ul>
+
+              <strong>Preparación:</strong>
+              <ul>1. Si escogiste hacer tu mezcla vegana; primero en un bol, machaca con un tenedor el plátano y luego integra todos los ingredientes restantes hasta obtener una mezcla homogénea.</ul>
+              <ul>2. La segunda opción es mezclar la avena, el huevo y la leche. Bate todos los ingredientes hasta obtener una mezcla homogénea.</ul>
+              <ul>3. En una sartén a fuego bajo, añade aceite y un poco de la mezcla de panqueques. Cocina las tortitas de avena durante 3 minutos por cada lado y repite este mismo procedimiento con el resto de la mezcla.</ul>
+              <ul>4. Puedes rellenar cada tortilla con tu Untanuts de Moustella o diluir con un poco de agua 3 cdas de Moustella hasta obtener la textura aterciopelada y derramar sobres tus panqueques y finalizar decorando con Berries y coco.</ul>
+              <ul>5.¡A disfrutar!</ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="staticBackdrop_3" data-bs-backdrop="static" data-bs-keyboard="false" 
+      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="staticBackdropLabel">Lasaña de Zapallo Italiano</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <strong>Ingredientes:</strong>
+              <ul>1. Tres Zapallos italianos grandes</ul>
+              <ul>2. Media taza de aceitunas negras</ul>
+              <ul>3. un frasco de Untanuts Mediterráneo</ul>
+              <ul>4. Queso para fundir</ul>
+              <strong>Preparación:</strong>
+              <ul>1. Cortar los zapallos italianos en tiras finas con ayuda de una mandolina o con un cuchillo afilado.</ul>
+              <ul>2. Colocar en cada lámina Untanuts Mediterráneo esparcido a lo largo.</ul>
+              <ul>3. Repartir las aceitunas en las láminas de zapallo.</ul>
+              <ul>4. Hacer rollitos con los zapallos e ir colocándolos en una budinera pincelada con aceite en el fondo.</ul>
+              <ul>5. Colocar todos los rollitos uno arriba del otro en dos capas y terminar con queso para fundir.</ul>            
+              <ul>6. Colocar al horno por 15 min hasta dorar.</ul>
+              <ul>7. ¡Disfrutar!</ul>         
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+ </body>
+</html>
