@@ -1,0 +1,54 @@
+.container-fluid {
+  padding: 0px;
+}
+
+.navbar-scss {
+  background-color: #202020;
+}
+.navbar-scss .barra-nav {
+  padding: 20px !important;
+}
+.navbar-scss .nav-link {
+  color: white;
+}
+.navbar-scss .active {
+  color: yellow !important;
+  font-weight: bolder;
+}
+
+.footer-scss {
+  background-color: #202020;
+}
+.footer-scss h2 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.footer-scss h2:hover {
+  color: yellow !important;
+}
+
+.box-scss:hover {
+  cursor: pointer;
+  background-color: #eaf870;
+}
+
+.modal-header {
+  background-color: #5f717c;
+}
+.modal-header h5 {
+  color: white;
+}
+
+.form-control:hover {
+  background-color: yellow;
+}
+
+.btn-scss {
+  background-color: #1f2daa;
+  border-color: #1f2daa;
+  color: white;
+}
+.btn-scss:hover {
+  background-color: green !important;
+  color: white !important;
+}/*# sourceMappingURL=main.css.map */
